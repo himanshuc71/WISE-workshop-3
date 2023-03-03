@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ResumeApp</string>
+    <string name="linkedIn"><a href='https://www.linkedin.com/in/hchotwani/'> linkedIn:janeDoe </a></string>
+    <string name="emailText">janedoe@example.com</string>
+    <string name="phoneNumberText">+1 (604) xxx-xxx</string>
+    <string name="Experience">Experience</string>
+    <string name="Skills">Skills</string>
+    <string name="Projects">Projects</string>
+    <string name="Education">Education</string>
+</resources>

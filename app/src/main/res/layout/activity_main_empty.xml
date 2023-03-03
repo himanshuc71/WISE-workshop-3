@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:context=".MainActivity">
+
+<!--        <TextView-->
+<!--            android:id="@+id/resumeName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:paddingHorizontal="12sp"-->
+<!--            android:text="Jane Doe"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.366"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/resumePic"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/resumePic"-->
+<!--            android:layout_width="49dp"-->
+<!--            android:layout_height="65dp"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:contentDescription="resume person face"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:srcCompat="@drawable/resumeface" />-->
+
+<!--        &lt;!&ndash;        app:drawableStartCompat="@android:drawable/stat_sys_phone_call"&ndash;&gt;-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/phoneNumber"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="phoneNum"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/email"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/resumePic"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/resumeName" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/email"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="40dp"-->
+<!--            android:ems="10"-->
+<!--            android:gravity="start|top"-->
+<!--            android:text="email"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/resumeName" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/linkedIn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="160dp"-->
+<!--            android:layout_marginEnd="160dp"-->
+<!--            android:text="@string/linkedIn"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/experienceView"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.96"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/phoneNumber"-->
+<!--            app:layout_constraintVertical_bias="0.22000003" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/experienceHeadline"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="2dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            android:text="Experience"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textColor="#3F51B5"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/resumePic" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/experienceView"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:text="software engineer..."-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/experienceHeadline" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/expSkillsdivider"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:background="?android:attr/listDivider"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/experienceView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/skillsHeadline"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="2dp"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:text="Skills"-->
+<!--            android:textColor="@color/purple_700"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/expSkillsdivider" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/skillsView"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:text="programming"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/skillsHeadline" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/skillsProjectsDivider"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:background="?android:attr/listDivider"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/skillsView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/projectsHeadline"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="2dp"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:text="Projects"-->
+<!--            android:textColor="@color/purple_700"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/skillsProjectsDivider" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/projectsView"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:text="resumeApp"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/projectsHeadline" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/projectsEductionDivider"-->
+<!--            android:layout_width="409dp"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:background="?android:attr/listDivider"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/projectsView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/educationHeadline"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:text="Education"-->
+<!--            android:textColor="@color/purple_700"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/projectsEductionDivider" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/educationView"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:text="SFU"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/educationHeadline" />-->
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Go back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
